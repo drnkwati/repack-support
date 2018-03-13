@@ -1,0 +1,43 @@
+{
+    "name": "drnkwati/repack-support",
+    "description": "Illuminate Support Package With Minimal Dependencies.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Nkwati Divine",
+            "email": "drnkwati@gmail.com",
+            "homepage": "http://dnkwati.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "danielstjules/stringy": "~1.8"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "2.7.*"
+    },
+    "autoload": {
+        "files": [
+            "src/Illuminate/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Illuminate\\": "src/Illuminate/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
