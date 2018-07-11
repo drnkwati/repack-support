@@ -5,7 +5,6 @@ use Illuminate\Support\Debug\Dumper;
 if (!function_exists('action')) {
     /**
      * Generate a URL to a controller action.
-     *
      * @param  string   $name
      * @param  array    $parameters
      * @return string
